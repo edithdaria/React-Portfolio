@@ -4,7 +4,7 @@ import Home from './components/Home';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import ProjTempVid from './components/ProjTempVid'
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 
 function App() {
@@ -12,10 +12,12 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Navbar />
-        <Route exact path="/home" component={Home} />
+        <Switch>
+        <Route exact path="/React-Portfolio" component={Home} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/contact" component={Contact} />
-        <Route exact path="/project/:vid" component={ProjTempVid} />
+        <Route exact path="/:vid" component={ProjTempVid} />
+        </Switch>
       </div>
     </BrowserRouter>
   );
