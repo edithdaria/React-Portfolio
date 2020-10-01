@@ -1,24 +1,23 @@
 import React, { Component } from "react";
-import ReadmeDemo from "../assets.css/ReadmeDemo.mp4";
-import Readme from "../css/readme.css";
-
+import BurgerLoggerDemo from "../assets.css/Devour_Burgers.gif";
+import BurgerLogger from "../css/burgerLogger.css";
 
 class ProjTempVid extends Component {
 
   state = {
-    projects: [{
-      id: "2",
-      title: "README Generator",
-      description: "When creating an open source projects on GitHub, it is important to have a README with information about the app -- usage of the app, how to install it, how to report issues, and how to make contributions to the projects. This command-line application will allow for quick and easy generation of a projects README to get started quickly.",
-      steps: ["Step 1: Installation of node.js is required",
-        'Step 2: Clone the repo from this <a href="https://github.com/edithdaria/Readme-Generator" target="_blank" style="text-decoration: none;">GitHub page</a>',
-        "Step 3: Open the repository on the terminal and run the following: npm i ",
-        "Step 4: Then, run the following: node index.js",
-        "Step 5: Now you can start using the readme generator"],
-      video: ReadmeDemo,
+    projects: [
+    {
+      id: "3",
+      title: "Burger Logger",
+      description: "Eat-The-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat. Whenever a user submits a burger's name, it will display the burger on the left side of the page -- waiting to be devoured. Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the right side of the page. Every burger will be stored in the database, whether devoured or not.",
+      steps: [],
+      video: BurgerLoggerDemo,
       tools: "Tools: Node, SQL, CLI",
-      cssFile: Readme
-    }],
+      cssFile: BurgerLogger,
+      frameWidth: 1248,
+      frameHeight: 612
+    }
+    ],
 
     individualProject: []
   }
@@ -98,7 +97,7 @@ class ProjTempVid extends Component {
 
           <div className="row">
             <div className="col-md-12 col-lg-12 col-sm-12">
-              <iframe width="600" height="315" src={this.state.individualProject.video}></iframe>
+              <iframe width="900" height="800" src={this.state.individualProject.video}></iframe>
             </div>
           </div>
 
