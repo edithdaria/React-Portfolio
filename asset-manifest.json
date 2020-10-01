@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.b61ff739.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.92a40a8c.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.92a40a8c.chunk.js.map",
+    "main.css": "/React-Portfolio/static/css/main.617ed897.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.f75dd04c.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.f75dd04c.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.da5ae62e.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.da5ae62e.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/React-Portfolio/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.fd1b8a8a.chunk.js": "/React-Portfolio/static/js/2.fd1b8a8a.chunk.js",
-    "static/js/2.fd1b8a8a.chunk.js.map": "/React-Portfolio/static/js/2.fd1b8a8a.chunk.js.map",
+    "static/js/2.249df975.chunk.js": "/React-Portfolio/static/js/2.249df975.chunk.js",
+    "static/js/2.249df975.chunk.js.map": "/React-Portfolio/static/js/2.249df975.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
-    "precache-manifest.56c2472a668eff2d1a639d0abcefd9bc.js": "/React-Portfolio/precache-manifest.56c2472a668eff2d1a639d0abcefd9bc.js",
+    "precache-manifest.c9212a590caad6cdf0abec14f1b3b23f.js": "/React-Portfolio/precache-manifest.c9212a590caad6cdf0abec14f1b3b23f.js",
     "service-worker.js": "/React-Portfolio/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/React-Portfolio/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.b61ff739.chunk.css.map": "/React-Portfolio/static/css/main.b61ff739.chunk.css.map",
-    "static/js/2.fd1b8a8a.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.fd1b8a8a.chunk.js.LICENSE.txt",
-    "static/media/Devour_Burgers.gif": "/React-Portfolio/static/media/Devour_Burgers.96b277f9.gif",
+    "static/css/main.617ed897.chunk.css.map": "/React-Portfolio/static/css/main.617ed897.chunk.css.map",
+    "static/js/2.249df975.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.249df975.chunk.js.LICENSE.txt",
     "static/media/Heimdall_540x293.JPG": "/React-Portfolio/static/media/Heimdall_540x293.df0a21c1.JPG",
     "static/media/ReadmeDemo.mp4": "/React-Portfolio/static/media/ReadmeDemo.5ed87763.mp4",
     "static/media/anomaly_detection_data_science_480x270.gif": "/React-Portfolio/static/media/anomaly_detection_data_science_480x270.2b343de4.gif",
@@ -27,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.da5ae62e.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.fd1b8a8a.chunk.js",
-    "static/css/main.b61ff739.chunk.css",
-    "static/js/main.92a40a8c.chunk.js"
+    "static/js/2.249df975.chunk.js",
+    "static/css/main.617ed897.chunk.css",
+    "static/js/main.f75dd04c.chunk.js"
   ]
 }
