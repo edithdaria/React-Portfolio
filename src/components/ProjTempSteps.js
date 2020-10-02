@@ -8,8 +8,8 @@ import heimdall_step1 from '../assets.css/Heimdall_Landing_Page.gif';
 import heimdall_step2 from '../assets.css/Heimdall_All_Inventory.gif';
 import heimdall_step3 from '../assets.css/Heimdall_New_Order.gif';
 import heimdall_step4 from '../assets.css/Heimdall_New_Inventory.gif';
-import heimdall_css from "../css/heimdall.css";
-import explore_outdoors_css from "../css/exploreOutdoors.css";
+import "../css/heimdall.css";
+import "../css/exploreOutdoors.css";
 
 
 class ProjTempSteps extends Component {
@@ -26,7 +26,7 @@ class ProjTempSteps extends Component {
                 "Step 4: view more details on the selected park"],
             images: [explore_step1, explore_step2, explore_step3, explore_step4],
             tools: "Tools: Node, SQL, CLI",
-            css: explore_outdoors_css
+            css: "explore_outdoors_css"
         },
         {
             id: "1",
@@ -39,7 +39,7 @@ class ProjTempSteps extends Component {
                 "Screen 4: Add new inventory from a database that contains all relevant item skus, description and sale price details"],
             images: [heimdall_step1, heimdall_step2, heimdall_step3, heimdall_step4],
             tools: "Tools: Node, SQL, CLI",
-            css: heimdall_css
+            css: "heimdall_css"
         }],
 
         individualProject: []

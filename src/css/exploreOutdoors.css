@@ -1,33 +1,38 @@
-h1{
+.explore_outdoors_css h1{
     color:#729678;
     font-family: 'DM Mono', monospace;
 }
 
-h4{
+.explore_outdoors_css h4{
     color:#729678;
     font-family: 'DM Mono', monospace;
     float: left;
 }
 
-hr {
+.explore_outdoors_css hr {
     background-color: #222b23;
     height: 1px;
 }
 
-p{
+.explore_outdoors_css p{
     color:whitesmoke;
 
 }
 
-#git-hub:hover {
+.explore_outdoors_css img{
+    margin: 20px;
+}
+
+
+.explore_outdoors_css #git-hub:hover {
     color: #729678;
 }
 
-#git-hub {
+.explore_outdoors_css #git-hub {
     font-size:10pt;
 }
 
-#scroll-top {
+.explore_outdoors_css #scroll-top {
     position: fixed;
     background-color: #222b23;
     /* opacity: 0.2; */
@@ -38,12 +43,12 @@ p{
     border-top-left-radius: 15px;   
 }
 
-i {
+.explore_outdoors_css i {
     color:whitesmoke;
     /* opacity: 1!important; */
 }
 
-.btn-try {
+.explore_outdoors_css .btn-try {
     background-color: #222b23!important;
 }
 

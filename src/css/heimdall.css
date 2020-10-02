@@ -1,41 +1,41 @@
-h1{
+.heimdall_css h1{
     color:rgb(43, 102, 150);
     font-family: 'DM Mono', monospace;
 }
 
-h4{
+.heimdall_css h4{
     color:rgb(43, 102, 150);
     font-family: 'DM Mono', monospace;
     float: left;
 }
 
-hr {
+.heimdall_css hr {
     background-color: rgb(43, 102, 150);
     height: 1px;
 }
 
-a {
+.heimdall_css a {
     text-decoration: none;
 }
 
-p{
+.heimdall_css p{
     color:whitesmoke;
 
 }
 
-img{
+.heimdall_css img{
     margin: 20px;
 }
 
-#git-hub:hover {
+.heimdall_css #git-hub:hover {
     color: rgb(43, 102, 150);
 }
 
-#git-hub {
+.heimdall_css #git-hub {
     font-size:10pt;
 }
 
-#scroll-top {
+.heimdall_css #scroll-top {
     position: fixed;
     background-color: rgb(43, 102, 150);
     /* opacity: 0.2; */
@@ -46,12 +46,12 @@ img{
     border-top-left-radius: 15px;   
 }
 
-i {
+.heimdall_css i {
     color:whitesmoke;
     /* opacity: 1!important; */
 }
 
-.btn-try {
+.heimdall_css .btn-try {
     background-color: rgb(43, 102, 150)!important;
 
 }
