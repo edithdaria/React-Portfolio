@@ -17,7 +17,7 @@ function App() {
       <div className="App">
         <Navbar />
         <Switch>
-        <Route exact path="/React-Portfolio" component={Home} />
+        <Route exact path={["/", "/React-Portfolio"]} component={Home} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/vid/:vid" component={ProjTempVid} />
