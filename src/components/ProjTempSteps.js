@@ -9,7 +9,7 @@ import heimdall_step2 from '../assets.css/Heimdall_All_Inventory.gif';
 import heimdall_step3 from '../assets.css/Heimdall_New_Order.gif';
 import heimdall_step4 from '../assets.css/Heimdall_New_Inventory.gif';
 import "../css/heimdall.css";
-import "../css/exploreOutdoors.css";
+import explore_outdoors_css from "../css/exploreOutdoors.css";
 
 
 class ProjTempSteps extends Component {
