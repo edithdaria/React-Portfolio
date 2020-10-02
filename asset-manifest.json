@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.a6795b95.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.bbe47aa9.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.bbe47aa9.chunk.js.map",
+    "main.css": "/React-Portfolio/static/css/main.6ed40f64.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.39a408ef.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.39a408ef.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.da5ae62e.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.da5ae62e.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/React-Portfolio/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.355e8399.chunk.js": "/React-Portfolio/static/js/2.355e8399.chunk.js",
-    "static/js/2.355e8399.chunk.js.map": "/React-Portfolio/static/js/2.355e8399.chunk.js.map",
+    "static/js/2.2215a347.chunk.js": "/React-Portfolio/static/js/2.2215a347.chunk.js",
+    "static/js/2.2215a347.chunk.js.map": "/React-Portfolio/static/js/2.2215a347.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
-    "precache-manifest.5620252f421c8f4b029da7fcaf26dc75.js": "/React-Portfolio/precache-manifest.5620252f421c8f4b029da7fcaf26dc75.js",
+    "precache-manifest.811580186a9358e6b80fe6079df0de14.js": "/React-Portfolio/precache-manifest.811580186a9358e6b80fe6079df0de14.js",
     "service-worker.js": "/React-Portfolio/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/React-Portfolio/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.a6795b95.chunk.css.map": "/React-Portfolio/static/css/main.a6795b95.chunk.css.map",
-    "static/js/2.355e8399.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.355e8399.chunk.js.LICENSE.txt",
+    "static/css/main.6ed40f64.chunk.css.map": "/React-Portfolio/static/css/main.6ed40f64.chunk.css.map",
+    "static/js/2.2215a347.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.2215a347.chunk.js.LICENSE.txt",
     "static/media/Details.gif": "/React-Portfolio/static/media/Details.49918ad7.gif",
     "static/media/Devour_Burgers.gif": "/React-Portfolio/static/media/Devour_Burgers.96b277f9.gif",
     "static/media/Edith-Resume.pdf": "/React-Portfolio/static/media/Edith-Resume.30d96b63.pdf",
@@ -36,8 +36,8 @@
   "entrypoints": [
     "static/js/runtime-main.da5ae62e.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.355e8399.chunk.js",
-    "static/css/main.a6795b95.chunk.css",
-    "static/js/main.bbe47aa9.chunk.js"
+    "static/js/2.2215a347.chunk.js",
+    "static/css/main.6ed40f64.chunk.css",
+    "static/js/main.39a408ef.chunk.js"
   ]
 }
