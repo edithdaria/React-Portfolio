@@ -17,7 +17,7 @@ Mobile responsive personal portfolio built with React.js . This site contains pr
 
 
 ## Installation
-[Click Here to Launch Portfolio page](https://floating-cliffs-94701.herokuapp.com/)
+[Click Here to Launch Portfolio page](https://edithdaria.github.io/React-Portfolio/)
 
 ## Usage
 View my personal works
