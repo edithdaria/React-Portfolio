@@ -13,30 +13,30 @@ class Portfolio extends Component {
         projects: [
             {
                 src: explore_outdoors,
-                id: 0,
                 name: "Explore Outdoors",
-                alt: "Explore the outdoors"
+                alt: "Explore the outdoors",
+                template: "steps"
             },
 
             {
                 src: Heimdall,
-                id: 0,
                 name: "Heimdall",
-                alt: "pop icon of the character 'Heimdall'"
+                alt: "pop icon of the character 'Heimdall'",
+                template: "steps"
             },
 
             {
                 src: Readme,
-                id: 0,
                 name: "Readme Generator",
-                alt: "an image of that says 'Readme Generator' on a blue background"
+                alt: "an image of that says 'Readme Generator' on a blue background",
+                template: "vid"
             },
 
             {
                 src: Burger,
-                id: 0,
                 name: "Burger Logger",
-                alt: "An image of a cartoon image of a burger"
+                alt: "An image of a cartoon image of a burger",
+                template: "gif"
             }
         ]
     }
@@ -53,7 +53,7 @@ class Portfolio extends Component {
 
                             <div className="col-lg-6 col-md-6 col-sm-6"  key={index}>
                                 <div className="card">
-                                <Link to={"/" + index}>
+                                <Link to={"/" + project.template + "/" + index}>
                                     <img src={project.src} className="card-img-top" alt="Explore the outdoors" />
                                     </Link>
                                     <div className="card-title">

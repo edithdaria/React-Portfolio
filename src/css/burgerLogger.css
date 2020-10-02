@@ -1,29 +1,33 @@
-h1{
+.burgerLogger h1{
     color:#f0ad4e;
     font-family: 'DM Mono', monospace;
 }
 
-h4{
+.burgerLogger h4{
     color:#f0ad4e;
     font-family: 'DM Mono', monospace;
     float: left;
 }
 
-hr {
+.burgerLogger hr {
     background-color: #f0ad4e;
     height: 1px;
 }
 
-p{
+.burgerLogger p{
     color:whitesmoke;
 
 }
 
-#git-hub:hover {
+.burgerLogger a{
+    text-decoration: none;
+}
+
+.burgerLogger #git-hub:hover {
     color: #f0ad4e;
 }
 
-#git-hub {
+.burgerLogger #git-hub {
     font-size:10pt;
 }
 
@@ -43,7 +47,7 @@ i {
     /* opacity: 1!important; */
 }
 
-.btn-try{
+.burgerLogger btn-try{
     background-color: #774e15!important;
 }
 

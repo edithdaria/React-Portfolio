@@ -14,9 +14,17 @@ hr {
     height: 1px;
 }
 
+a {
+    text-decoration: none;
+}
+
 p{
     color:whitesmoke;
 
+}
+
+img{
+    margin: 20px;
 }
 
 #git-hub:hover {

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ReadmeDemo from "../assets.css/ReadmeDemo.mp4";
-import Readme from "../css/readme.css";
+import "../css/readme.css";
 
 
 class ProjTempVid extends Component {
@@ -16,8 +16,7 @@ class ProjTempVid extends Component {
         "Step 4: Then, run the following: node index.js",
         "Step 5: Now you can start using the readme generator"],
       video: ReadmeDemo,
-      tools: "Tools: Node, SQL, CLI",
-      cssFile: Readme
+      tools: "Tools: Node, SQL, CLI"
     }],
 
     individualProject: []
@@ -39,8 +38,7 @@ class ProjTempVid extends Component {
   render() {
 
     return (
-      <div className="container">
-        <style src={this.state.individualProject.cssFile}></style>
+      <div className="readme container">
         <center>
           <div className="row">
             <div className="col-md-12 col-lg-12 col-sm-12">

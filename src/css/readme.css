@@ -1,20 +1,20 @@
-h1{
+.readme h1{
     color:#0865c2;
     font-family: 'DM Mono', monospace;
 }
 
-h4{
+.readme h4{
     color:#0865c2;
     font-family: 'DM Mono', monospace;
     float: left;
 }
 
-hr {
+.readme hr {
     background-color: #0865c2;
     height: 1px;
 }
 
-p{
+.readme p{
     color:whitesmoke;
 
 }
@@ -23,7 +23,7 @@ p{
     text-align: left;
 }
 
-#git-hub:hover {
+.readme #git-hub:hover {
     color: #0865c2;
 }
 
