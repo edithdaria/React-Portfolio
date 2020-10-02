@@ -10,6 +10,21 @@ a:hover{
     color: grey;
 }
 
+.fa-github-square{
+    color:white;
+    margin: 5px;
+}
+
+.fa-linkedin{
+    color: #0072b1;
+    margin: 5px;   
+}
+
+.fa-envelope-square{
+    color:white;
+    margin: 5px;
+}
+
 
 #resumeLink {
     font-size: 16px!important;
@@ -25,20 +40,22 @@ a:hover{
 p {
     color:white;
     font-family: 'DM Mono', monospace;
-    text-align: center;
+    text-align: center!important;
 
 }
 
 .card{
     margin: 10px;
     background-color: black !important;
+    
 }
 
 
 .card-text {
-    text-align: center;
+
     font-family: 'DM Mono', monospace;
     color:white;
+    text-align: center;
 
 }
 
@@ -96,6 +113,7 @@ footer{
     p
     {
         font-size: 12pt;
+        text-align: center!important;
     }
 
     #resumeLink {
@@ -152,6 +170,7 @@ footer{
 
 p {
     font-size: 10pt;
+    text-align: center!important;
 }
 
 #resumeLink {

@@ -7,6 +7,8 @@ import ProjTempVid from './components/ProjTempVid';
 import ProjTempGif from './components/ProjTempGif';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import ProjTempSteps from './components/ProjTempSteps';
+import Footer from './components/Footer';
+import Resume from './components/Resume';
 
 
 function App() {
@@ -21,7 +23,9 @@ function App() {
         <Route exact path="/vid/:vid" component={ProjTempVid} />
         <Route exact path="/gif/:gif" component={ProjTempGif} />
         <Route exact path="/steps/:step" component={ProjTempSteps} />
+        <Route exact path="/resume" component={Resume} />
         </Switch>
+        <Footer />
       </div>
     </BrowserRouter>
   );

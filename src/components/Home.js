@@ -3,6 +3,7 @@ import './style.css';
 import supply_chain_managment from '../assets.css/supply_chain_managment_480x270.gif';
 import anomaly_detection from '../assets.css/anomaly_detection_data_science_480x270.gif';
 import software_development from '../assets.css/software_development_480x270.gif';
+import { Link } from "react-router-dom";
 
 //functional component
 const Home = () => {
@@ -55,7 +56,7 @@ const Home = () => {
                         <p>I'm harnessing my web development skills to find technical solutions to everyday logistics problems.
                         I have worked on supply chain projects ranging from detecting anomalies in shipping data to analysing shipping contracts.
                         Take a peek at the portfolio page to view my spare-time projects.
-          <a id="resumeLink" target="_blank" href="./views/resume.html">Click here to view my résumé</a>
+          <Link to= "/resume" id="resumeLink" target="_blank" href="./views/resume.html">Click here to view my résumé</Link>
                         </p>
 
 

@@ -59,6 +59,7 @@ class Portfolio extends Component {
                                     <div className="card-title">
                                         <p className="card-text">{project.name}</p>
                                     </div>
+
                                 </div>
                             </div>
 
@@ -69,7 +70,6 @@ class Portfolio extends Component {
                 </div>
 
             </div>
-
         )
     }
 }

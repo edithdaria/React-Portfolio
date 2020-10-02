@@ -1,10 +1,15 @@
 import React, { Component } from "react";
+import explore_step1 from '../assets.css/explore_outdoors_start_page.JPG';
+import explore_step2 from '../assets.css/Explore Outdoors - Search.gif';
+import explore_step3 from '../assets.css/Results.gif';
+import explore_step4 from '../assets.css/Details.gif';
+
 import heimdall_step1 from '../assets.css/Heimdall_Landing_Page.gif';
 import heimdall_step2 from '../assets.css/Heimdall_All_Inventory.gif';
 import heimdall_step3 from '../assets.css/Heimdall_New_Order.gif';
 import heimdall_step4 from '../assets.css/Heimdall_New_Inventory.gif';
-import "../css/exploreOutdoors.css";
-import "../css/heimdall.css";
+import explore_outdoors_css from "../css/exploreOutdoors.css";
+import heimdall_css from "../css/heimdall.css";
 
 
 class ProjTempSteps extends Component {
@@ -12,6 +17,19 @@ class ProjTempSteps extends Component {
     state = {
         projects: [{
             id: "0",
+            title: "Explore Outdoors",
+            description: "Explore Outdoors is an app created to help you seemlessly plan your next trip to any national park in the US. It is linked to the 400+ national parks with a user-friendly interface. This app provides you with a location map, images and weather information for any park you wish to explore all in one place.",
+            tryItYourself: "https://sleepy-hamlet-40300.herokuapp.com/",
+            steps: ["Step 1: Click on the start Button",
+                "Step 2: Select a state (required), then select any combination of activites and themes",
+                "Step 3: Click on any one of the park results",
+                "Step 4: view more details on the selected park"],
+            images: [explore_step1, explore_step2, explore_step3, explore_step4],
+            tools: "Tools: Node, SQL, CLI",
+            css: explore_outdoors_css
+        },
+        {
+            id: "1",
             title: "Heimdall",
             description: "Heimdall is an Inventory Management System application that allows users to access and keep track of their inventory records. Users have the ability to add, modify and see all their inventory and keep track of the items bought and sold",
             tryItYourself: "https://sheltered-tor-26517.herokuapp.com/",
@@ -20,7 +38,8 @@ class ProjTempSteps extends Component {
                 "Screen 3: Click on New Order button and log a purchase or sale.",
                 "Screen 4: Add new inventory from a database that contains all relevant item skus, description and sale price details"],
             images: [heimdall_step1, heimdall_step2, heimdall_step3, heimdall_step4],
-            tools: "Tools: Node, SQL, CLI"
+            tools: "Tools: Node, SQL, CLI",
+            css: heimdall_css
         }],
 
         individualProject: []
@@ -42,7 +61,7 @@ class ProjTempSteps extends Component {
     render() {
 
         return (
-            <div className="container">
+            <div className={ "container " + this.state.individualProject.css }>
                 <center>
                     <div className="row">
                         <div className="col-md-12 col-lg-12 col-sm-12">
@@ -102,52 +121,6 @@ class ProjTempSteps extends Component {
 
                     <hr className="solid" />
                     <br /><br />
-
-
-                    {/* <div class="row">
-    <div class="col-md-6 col-lg-6 col-sm-6">
-        <div class="card-body">
-        <p class="card-text">Screen 2: View your current inventory. Modify relevant fields of the existing inventory.</p>
-        </div>
-    </div>
-
-    <div class="col-md-6 col-lg-6 col-sm-6">
-        <img src="../assets.css/Heimdall_All_Inventory.gif" class="img-thumbnail"/>
-    </div>
-    </div>
-
-    <hr class="solid"/>    
-    <br/><br/>
-
-    <div class="row">
-    <div class="col-md-6 col-lg-6 col-sm-6">
-        <img src="../assets.css/Heimdall_New_Order.gif" class="img-thumbnail"/>
-    </div>
-
-    <div class="col-md-6 col-lg-6 col-sm-6">
-        <div class="card-body">
-        <p class="card-text">Screen 3: Click on New Order button and log a purchase or sale.</p>
-        </div>
-    </div>
-    </div>
-
-    <hr class="solid"/>    
-    <br/><br/>
-
-    <div class="row">
-    <div class="col-md-6 col-lg-6 col-sm-6">
-        <div class="card-body">
-        <p class="card-text">Screen 4: Add new inventory from a database that contains all relevant item skus, description and sale price details</p>
-        </div>
-    </div>
-
-    <div class="col-md-6 col-lg-6 col-sm-6">
-        <img src="../assets.css/Heimdall_New_Inventory.gif" class="img-thumbnail"/>
-    </div>
-    </div>
-
-    <hr class="solid"/>    
-    <br/><br/> */}
 
                     <div className="row">
                         <div className="col-md-12 col-lg-12 col-sm-12">
