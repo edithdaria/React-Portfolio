@@ -11,12 +11,13 @@ class ProjTempVid extends Component {
       title: "README Generator",
       description: "When creating an open source projects on GitHub, it is important to have a README with information about the app -- usage of the app, how to install it, how to report issues, and how to make contributions to the projects. This command-line application will allow for quick and easy generation of a projects README to get started quickly.",
       steps: ["Step 1: Installation of node.js is required",
-        'Step 2: Clone the repo from this <a href="https://github.com/edithdaria/Readme-Generator" target="_blank" style="text-decoration: none;">GitHub page</a>',
+        'Step 2: Clone the repo from the github link provided',
         "Step 3: Open the repository on the terminal and run the following: npm i ",
         "Step 4: Then, run the following: node index.js",
         "Step 5: Now you can start using the readme generator"],
       video: ReadmeDemo,
-      tools: "Tools: Node, SQL, CLI"
+      tools: "Tools: Node, SQL, CLI",
+      gitLink: "https://github.com/edithdaria/Readme-Generator",
     }],
 
     individualProject: []
@@ -106,7 +107,7 @@ class ProjTempVid extends Component {
           <div className="row">
             <div className="col-md-12 col-lg-12 col-sm-12">
               <p>{this.state.individualProject.tools}</p>
-              <br />
+              <a href={this.state.individualProject.gitLink} target="_blank">GitHub page</a>
               <hr className="solid" />
             </div>
           </div>

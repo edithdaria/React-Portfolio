@@ -19,6 +19,11 @@
 
 }
 
+.readme a{
+    text-decoration:none;
+
+}
+
 .card-text {
     text-align: left;
 }
