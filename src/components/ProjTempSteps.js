@@ -61,7 +61,7 @@ class ProjTempSteps extends Component {
     render() {
 
         return (
-            <div className={ "container " + this.state.individualProject.css }>
+            <div className={ "container " + this.state.individualProject.css}>
                 <center>
                     <div className="row">
                         <div className="col-md-12 col-lg-12 col-sm-12">
